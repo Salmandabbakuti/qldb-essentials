@@ -66,7 +66,6 @@ app.get('/api/getHistory/', async function (req, res) {
 try{
   const response = await QuantumClient.execute(`SELECT * FROM history(Movies) AS m WHERE m.data.${req.query.filterField} = '${req.query.filterValue}'`);
   res.send(response)
-  console.log(response)
 }catch (err) {
     res.status(500).send(err)
   }    
