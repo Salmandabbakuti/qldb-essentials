@@ -14,6 +14,6 @@ node server.js
 #### CURL Sample Commands:
 >Sample CURL Commands for CRUD are included in ```server/queries.md``` file
 
-###### Special Thanks to :wave: [Lepozepo](https://github.com/Lepozepo) for making simple to use QLDB node module
+###### Special Thanks to :wave: [Lepozepo](https://github.com/Lepozepo) for making simple QLDB module used in this project
 
 
