@@ -7,7 +7,6 @@ const QuantumClient = new qldb({
   ledger:"",
 });
 async function main(){
-// Later in your code
 const stuff = await QuantumClient.execute('SELECT * FROM Movies');
 console.log(stuff)
 }
