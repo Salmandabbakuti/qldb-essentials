@@ -2,14 +2,21 @@
 
 ###### 1. Read 
 ```
-# Whole Table
-curl http://localhost:3000/api/read
+#a. Whole Table
+curl http://localhost:3000/api/readAll
 
 Sample Response
 //[{"Name":"Inception","Rank":34,"Producer":"PeterBurg","Rating":"9.3"},{"Name":"Terminator2","Rank":33,"Producer":"Gale Ann Hurd","Rating":9}]
 
-#Search by Id
-curl http://localhost:3000/api/getById?id=8PdWWXJBV5qK8CUqAHm8Oi
+#b. Search by Field
+curl http://localhost:3000/api/search?searchField=Producer&value=Gale Ann Hurd
+
+Sample Response
+//{"Name":"Terminator2","Rank":33,"Producer":"Gale Ann Hurd","Rating":9}
+
+
+#c. Search by Id
+curl http://localhost:3000/api/searchById?id=8PdWWXJBV5qK8CUqAHm8Oi
 
 Sample Response
 //[{"Name":"Terminator2","Rank":33,"Producer":"Gale Ann Hurd","Rating":9,"rid":"8PdWWXJBV5qK8CUqAHm8Oi"}]
