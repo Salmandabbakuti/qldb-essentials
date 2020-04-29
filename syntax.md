@@ -43,7 +43,7 @@ SELECT FROM * <table name> AS <alias>
 WHERE alias.<field name> = <value>
 
 EX:
-SELECT * FROM Movies AS <alias>
+SELECT * FROM Movies AS m
 WHERE m.Name = 'Interstellar' 
 //Amazon ION doesn't support double quotes for strings
 
@@ -69,7 +69,7 @@ UPDATE Movies AS m
 SET m.Rating = 9.0
 WHERE m.Name='Interstellar'
 
-# Overwrite entire entire document
+# Overwrite entire document
 
 UPDATE <table name> AS <alias>
 SET <alias> = {
