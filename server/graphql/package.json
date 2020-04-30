@@ -1,0 +1,18 @@
+{
+  "name": "qldb-graphql",
+  "version": "1.0.0",
+  "main": "server.js",
+  "dependencies": {
+    "graphql-yoga": "^1.18.3",
+    "qldb": "^3.1.1",
+    "dotenv": "^8.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Salman Dabbakuti",
+  "license": "Apache-2.0",
+  "devDependencies": {},
+  "description": "Amazon QLDB Demonstration with GraphQL API"
+}
