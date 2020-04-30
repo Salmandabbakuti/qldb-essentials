@@ -8,7 +8,7 @@ node server.js //go to http://localhost:4000 for GraphQL Playground
 
 ```
 ##### GraphQL Playground
-<img align="center" src="https://github.com/Salmandabbakuti/qldb-essentials/blob/master/screen.png" width="90%">
+<img align="center" src="https://github.com/Salmandabbakuti/qldb-essentials/blob/graphql/screen.png" width="90%">
 
 ####  Queries and Mutations:
 ```
