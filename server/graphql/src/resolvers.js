@@ -1,6 +1,6 @@
 const qldb = require('qldb').default;
 const ionize = require('qldb').ionize;
-const qldb_config = require('./config.js');
+const qldb_config = require('../../../config.js');
 const QuantumClient = new qldb({
   accessKey:qldb_config.ACCESS_KEY_ID,
   secretKey:qldb_config.SECRET_KEY,
