@@ -1,5 +1,4 @@
 const { GraphQLServer, PubSub } = require('graphql-yoga')
-
 const resolvers = require("./src/resolvers");
 const typeDefs = require("./src/typeDefs");
 const pubsub = new PubSub();
