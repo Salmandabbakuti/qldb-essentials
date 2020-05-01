@@ -9,7 +9,7 @@ Sample Response
 //[{"Name":"Inception","Rank":34,"Producer":"PeterBurg","Rating":"9.3"},{"Name":"Terminator2","Rank":33,"Producer":"Gale Ann Hurd","Rating":9}]
 
 #b. Search by Field
-curl http://localhost:3000/api/search?searchField=Producer&value=Gale Ann Hurd
+curl http://localhost:3000/api/search?searchField=Producer&value=Gale+Ann+Hurd
 
 Sample Response
 //{"Name":"Terminator2","Rank":33,"Producer":"Gale Ann Hurd","Rating":9}
