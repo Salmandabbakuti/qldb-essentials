@@ -1,18 +1,21 @@
 {
-  "name": "qldb-graphql",
+  "name": "qldb-nodejs",
   "version": "1.0.0",
   "main": "server.js",
   "dependencies": {
+    "body-parser": "^1.19.0",
     "graphql-yoga": "^1.18.3",
+    "express": "^4.17.1",
     "qldb": "^3.1.1",
     "dotenv": "^8.0.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start-rest": "node rest-server.js",
+    "start-graphql": "node graphql-server.js"
   },
   "author": "Salman Dabbakuti",
   "license": "Apache-2.0",
   "devDependencies": {},
-  "description": "Amazon QLDB Demonstration with GraphQL API"
+  "description": "Amazon QLDB Demonstration with REST&GraphQL APIs"
 }
