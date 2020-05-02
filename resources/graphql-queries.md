@@ -1,14 +1,7 @@
 ### Amazon's QLDB With GraphQL Server Setup
 
-#### Setup
->update ```.env``` file according to your QLDB Configuration
-```
-npm i
-node server.js //go to http://localhost:4000 for GraphQL Playground
-
-```
 ##### GraphQL Playground
-<img align="center" src="https://github.com/Salmandabbakuti/qldb-essentials/blob/minify/resources/screen.png" width="90%">
+<img align="center" src="https://github.com/Salmandabbakuti/qldb-essentials/blob/master/resources/screen.png" width="90%">
 
 ####  Queries and Mutations:
 ```
