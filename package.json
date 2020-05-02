@@ -11,7 +11,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start-rest": "node rest-server.js"
+    "start-rest": "node rest-server.js",
     "start-graphql": "node graphql-server.js"
   },
   "author": "Salman Dabbakuti",
