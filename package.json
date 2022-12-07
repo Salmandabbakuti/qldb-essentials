@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "main": "server.js",
   "dependencies": {
-    "body-parser": "^1.19.0",
+    "body-parser": "^1.20.1",
     "graphql-yoga": "^1.18.3",
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "qldb": "^3.1.1",
     "dotenv": "^8.0.0"
   },
